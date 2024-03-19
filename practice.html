@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/syntaxy-js/dist/css/syntaxy.dark.min.css" />
+
+
+    <title>Practice</title>
+</head>
+<body>
+<!--=========== nav bar ===========-->
+
+<!-- FIX =
+          - better look
+          - center text
+          - better colors
+-->
+<nav class="navbar navbar-expand-lg bg-dark  border-body"  data-bs-theme="dark">
+
+    <div class=" row container-sm text-center">
+
+        <div class="col text-center">
+            <a class="navbar-brand" href="#">SecureCode</a>
+        </div>
+        <div class="col text-center">
+
+            <div class=" text-center collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" text-center navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " href="./practice.html">Practice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact_us">contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comunity">comunity</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+        <div class="col text-center">
+            <button class="btn btn-outline-light" >login</button>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+<!--=========== nav bar ===========-->
+
+<!--------------------------------------------------------------------------------->
+<!-- use this as refrence for code snippet :https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520pluckDeep%2520%253D%2520key%2520%253D%253E%2520obj%2520%253D%253E%2520key.split%28%27.%27%29.reduce%28%28accum%252C%2520key%29%2520%253D%253E%2520accum%255Bkey%255D%252C%2520obj%29%250A%250Aconst%2520compose%2520%253D%2520%28...fns%29%2520%253D%253E%2520res%2520%253D%253E%2520fns.reduce%28%28accum%252C%2520next%29%2520%253D%253E%2520next%28accum%29%252C%2520res%29%250A%250Aconst%2520unfold%2520%253D%2520%28f%252C%2520seed%29%2520%253D%253E%2520%257B%250A%2520%2520const%2520go%2520%253D%2520%28f%252C%2520seed%252C%2520acc%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520const%2520res%2520%253D%2520f%28seed%29%250A%2520%2520%2520%2520return%2520res%2520%253F%2520go%28f%252C%2520res%255B1%255D%252C%2520acc.concat%28%255Bres%255B0%255D%255D%29%29%2520%253A%2520acc%250A%2520%2520%257D%250A%2520%2520return%2520go%28f%252C%2520seed%252C%2520%255B%255D%29%250A%257D-->
+<!--------------------------------------------------------------------------------->
+
+<div class="container text-center">
+    <div class="row">
+         <div class=" col nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+             <div class="text-center">
+                 <img class=" text-center img-fluid my-auto logo p-3" src="PHP_logo.png">
+             </div>
+                <button class="p-3 nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Challenge 1</button>
+                <button class="p-3 nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Challenge 2</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 3</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 4</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 5</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 6</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 7</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 8</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 9</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 10</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 11</button>
+                <button class="p-3 nav-link disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Challenge 12</button>
+            </div>
+            <div class=" col-10 tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                    <div class="p-3" >
+                        <h3>Php Challenge One </h3>
+                        <p>can you catch the vulrnable lines &#128064; </p>
+                        <div class=" p-3 text-start container code">
+<!--                            <pre><code>public static function list_files_for_user($username) {<br>$base = "files/".$username;<br>if (!file_exists($base)) {<br>mkdir($base);<br>}<br>return array_diff(scandir($base), array('..', '.'));<br>}</code></pre>-->
+<!--                        <pre class="code">-->
+<!--                            <span class="tr first-row"><span class="th"></span><code>indented line</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>unindented line</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>the above line should be empty</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>overlong line that wraps around or so I hope because it's really long and should overflow the right sided margin of the web page in your browser</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>fill up to ten</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>lines to check</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>alignment</code></span>-->
+<!--                            <span class="tr"><span class="th"></span><code>of numbers</code></span>-->
+<!--                        </pre>-->
+
+
+                        <pre id="syntaxy" data-type="default">
+                            function resetpassword($number)
+                            {
+                               global $db, $systemname, $systemrules, $systemURL;
+
+                               $result=$db->query("SELECT mail,userName FROM users WHERE number='$number'");
+
+                               if (!$result->num_rows) response(_('No such user found.'),1);
+                               $row=$result->fetch_assoc();
+                               $email=$row["mail"];
+                               $username=$row["userName"];
+
+                               $subject = _('Password reset');
+
+                               mt_srand(crc32(microtime()));
+                               $password=substr(md5(mt_rand().microtime().$email),0,8);
+
+                               $result=$db->query("UPDATE users SET password=SHA2('$password',512) WHERE number='".$number."'");
+
+                               $names=preg_split("/[\s,]+/",$username);
+                               $firstname=$names[0];
+                               $message=_('Hello').' '.$firstname.",\n\n".
+                               _('Your password has been reset successfully.')."\n\n".
+                               _('Your new password is:')."\n".$password;
+
+                               sendEmail($email, $subject, $message);
+                               response(_('Your password has been reset successfully.').' '._('Check your email.'));
+                            }
+                        </pre>
+
+
+                            <div class="container mt-5  text-center ">
+                                <form id="dynamic-form">
+                                    <div id="input-container">
+                                        <div class="row text-start">
+                                            <div class="col   ">
+                                                <label>Line Number</label>
+                                                <input type="text" class="form-control" id="line-number" name="line-number" style="width: 70px;">
+                                            </div>
+                                            <div class="col">
+                                                <label >Vulnerability Type</label>
+                                                <select class="form-control"  id="vulnerability-type" name="vulnerability-type" style="width: 200px;">
+                                                    <option value="type1">XSS</option>
+                                                    <option value="type2">Open Redirect</option>
+                                                    <option value="type3">SQL injection</option>
+                                                    <!-- Add more options as needed -->
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary" id="add-button">Add Fields</button>
+                                                    <button type="button" class="btn btn-danger" id="subtract-button">Subtract Fields</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" id="submitButton" class="btn btn-success mt-3">Submit</button>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                    <div class=" p-3" >
+                        <h3>PHP challenge Two </h3>
+                        <p> can you catch the vulrnable lines &#128064; </p>
+
+
+                        <pre id="syntaxy2" data-type="default">
+                                function redirect()
+    {
+        $redirect_url = !empty($_REQUEST['redirect_to'])
+                            && !(defined('LOGOUT_REDIRECT_FORCED')
+                            && LOGOUT_REDIRECT_FORCED)
+                            ? $_REQUEST['redirect_to']
+                            : $this->get_redirection_url();
+        wp_redirect($redirect_url);
+        exit();
+    }
+
+                        </pre>
+
+                        <div class="container mt-5  text-center ">
+                            <form id="dynamic-form">
+                                <div id="input-container">
+                                    <div class="row text-start">
+                                        <div class="col   ">
+                                            <label for="line-number">Line Number</label>
+                                            <input type="text" class="form-control" name="line-number" style="width: 70px;">
+                                        </div>
+                                        <div class="col">
+                                            <label for="vulnerability-type">Vulnerability Type</label>
+                                            <select class="form-control" name="vulnerability-type" style="width: 200px;">
+                                                <option value="type1">Type 1</option>
+                                                <option value="type2">Type 2</option>
+                                                <option value="type3">Type 3</option>
+                                                <!-- Add more options as needed -->
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-primary" id="add-button">Add Fields</button>
+                                                <button type="button" class="btn btn-danger" id="subtract-button">Subtract Fields</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-success mt-3">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/syntaxy-js/dist/js/syntaxy.min.js"></script>
+<script src="/syntaxy.js"></script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const addButton = document.getElementById('add-button');
+        const subtractButton = document.getElementById('subtract-button');
+        const inputContainer = document.getElementById('input-container');
+
+        addButton.addEventListener('click', function() {
+            const newInput = `
+
+            <div class="row text-start">
+                                        <div class="col   ">
+                                            <label for="line-number">Line Number</label>
+                                            <input type="text" class="form-control" name="line-number" style="width: 70px;">
+                                        </div>
+                                        <div class="col">
+                                            <label for="vulnerability-type">Vulnerability Type</label>
+                                            <select class="form-control" name="vulnerability-type" style="width: 200px;">
+                                                    <option value="type1">XSS</option>
+                                                    <option value="type2">Open Redirect</option>
+                                                    <option value="type3">SQL injection</option>
+                                                <!-- Add more options as needed -->
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                    </div>
+
+        `;
+            inputContainer.insertAdjacentHTML('beforeend', newInput);
+        });
+
+        subtractButton.addEventListener('click', function() {
+            if (inputContainer.children.length > 1) {
+                inputContainer.removeChild(inputContainer.lastElementChild);
+            } else {
+                alert('You must have at least one input field!');
+            }
+        });
+
+        submitButton.addEventListener('click', function(){
+            event.preventDefault();
+            var lineValue = document.getElementById("line-number").value;
+            var vulnValue = document.getElementById("vulnerability-type").value;
+            if (lineValue == '5' || lineValue == '17'){
+                // alert("great job !!!!!!!")
+                const winAlert = `<br><div class=" p-3 alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully solved the first challenge !!.<br> </p>
+  <hr>
+  <p class="mb-0"> view the original code & pull request <a target="_blank" href="https://github.com/cyklokoalicia/OpenSourceBikeShare/pull/158/files">HERE</a> </p>
+</div>
+                `
+                inputContainer.insertAdjacentHTML('beforeend', winAlert);
+            }else {
+                alert("try again")
+            }
+        })
+    });
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

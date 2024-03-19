@@ -1,0 +1,48 @@
+body {
+    background-color: #303030; /* Gray background color */
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+    color: aliceblue;
+}
+
+.cover-container {
+    background:  linear-gradient(rgba(48,48,48,0.8) , rgba(0,0,0,0.9)) ,url("cover_bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.cta-button {
+    margin-top: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+/*.disabled{*/
+/*    color: bisque;*/
+/*}*/
+.nav{
+    --bs-nav-link-disabled-color:rgba(255,255,255,0.4);
+}
+.nav-link {
+    color: azure;
+}
+.nav-pills .nav-link.active{
+    background-color: azure;
+    color: #303030;
+}
+
+
+
+
+
